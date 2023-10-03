@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;700&display=swap');
+
+#body{
+    margin: 0px auto; /*margin externa*/
+    padding: 0px; /*margin interna*/
+    background-color: blue;
+
+
+}
+
+#menuprincipal{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    background-color: #303030;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #BABABA;
+}
+
+
+#menuprincipal div a{
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter';
+}
+
+#menuprincipal div a:hover{
+    color: rgb(211, 211, 211);
+
+}
+
+#menuprincipal button{
+    margin-right: 5%;
+    background-color: #0C70F2;
+    border: 0px;
+    height: 40px;
+    width: 80px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 600px;
+    color: white;
+    box-shadow: 3px 2px 4px 0px #0C70F240;
+    cursor: pointer;
+}
+
+#menu{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5px;
+}
+
+
